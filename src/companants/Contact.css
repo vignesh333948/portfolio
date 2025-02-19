@@ -1,0 +1,239 @@
+.contact-container{
+    margin: 4rem 0;
+    position: relative;
+}
+.contact-container h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.contact-icons{
+    width: 60%;
+    display: flex;
+    height: 20%;
+    gap: 60px;
+}
+.icon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 0.65rem;
+    border: 1px solid #6751b9;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+.icon2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 0.65rem;
+    border: 1px solid #6751b9;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+.contact-icons i{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    /* background:lightblue;/ */
+    margin-bottom: 0.8rem;
+
+}
+.contact-form{
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1.5rem;
+}
+.name-container{
+    display: flex;
+    align-items: center;
+    grid-gap: 1.5rem;
+}
+form input,
+form textarea{
+    flex: 1;
+    width: 100%;
+    font-size: 0.9rem;
+    color: white;
+    background: transparent;
+    border-radius: 0.6rem;
+    border: 1.5px solid;
+    padding: 10px;
+}
+form button{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 0.6rem;
+    background: transparent;
+    padding: 0.7rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+form button:hover{
+    background:transparent;
+    color: yellow;
+}
+
+
+.contact-container {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.contact-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    /* margin-bottom: 3rem; */
+    text-align: center;
+}
+
+.contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.icon1, .icon2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 0.65rem;
+    border: 1px solid #6751b9;
+    padding: 1.5rem;
+    flex: 1;
+    min-width: 200px;
+    /* max-width: 400px; */
+    transition: transform 0.3s ease;
+}
+
+.icon1:hover, .icon2:hover {
+    transform: scale(1.05);
+}
+
+.contact-icons i {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background: lightblue;
+    margin-bottom: 0.8rem;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.name-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.name-container input {
+    flex: 1;
+    min-width: 150px;
+}
+
+form input,
+form textarea {
+    flex: 1;
+    width: 100%;
+    font-size: 0.9rem;
+    color: white;
+    background: transparent;
+    border-radius: 0.6rem;
+    border: 1.5px solid;
+    padding: 10px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 0.6rem;
+    background: transparent;
+    padding: 0.7rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: transparent;
+    color: yellow;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    .contact-icons {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .icon1, .icon2 {
+        max-width: 100%;
+    }
+
+    .name-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-container h5 {
+        font-size: 1.2rem;
+    }
+
+
+    form input,
+    form textarea,
+    form div {
+        font-size: 0.8rem;
+        width: 70vw;
+    
+    }
+
+    form button {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        width: 70vw;
+    }
+    .contact-form{
+        display: flex;
+        justify-content: center;
+    }
+}

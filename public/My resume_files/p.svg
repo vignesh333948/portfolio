@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN'
+          'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg height="1" stroke="#000" stroke-linecap="square" stroke-miterlimit="10" viewBox="0 0 497.5 1" width="498" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+><defs
+  ><clipPath id="a"
+    /><clipPath clip-path="url(#a)" id="b"
+    ><path d="M-48.86 689.32h595.5V-152.93H-48.86Zm0 0"
+    /></clipPath
+    ><clipPath clip-path="url(#b)" id="c"
+    ><path d="M-48.86-152.93h595.5V689.32H-48.86Zm0 0"
+    /></clipPath
+  ></defs
+  ><g
+  ><g fill="#004AAD" stroke="#004AAD" stroke-linecap="butt" stroke-miterlimit="4" stroke-width=".75"
+    ><path clip-path="url(#c)" d="M0 .38H497.5" fill="none"
+    /></g
+  ></g
+></svg
+>

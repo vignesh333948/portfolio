@@ -1,0 +1,14 @@
+@media screen and (max-width:768px){
+    #con1{
+        margin-left: 27%;
+    }
+}
+@media screen and (min-width:319px) and (max-width:426px){
+    #con1{
+        margin-left: auto;
+        justify-content: center;
+    }
+}
+.Main{
+    color: rgb(246, 122, 165);
+}
