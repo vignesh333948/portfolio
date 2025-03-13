@@ -65,17 +65,20 @@ export default function Header() {
             </li>
             <div className='icons d-flex flex-wrap gap-md-3'>
             <div className='ico'>
-            <i class="bi bi-envelope"></i>
+            <a href='https://app.netlify.com/teams/vigneshchinraj13/sites'>
+            <i class="bi bi-globe"></i></a>
             </div>
             <div className='ico'>
             <a href='https://github.com/vignesh333948'><i class="bi bi-github"></i></a>
             
             </div>
             <div className='ico'>
-            <i class="bi bi-linkedin"></i>
+              <a href='https://github.com/vignesh333948'>
+            <i class="bi bi-linkedin"></i></a>
             </div>
             <div className='ico'>
-            <i class="bi bi-instagram"></i>
+            <a href='https://github.com/vignesh333948'>
+            <i class="bi bi-instagram"></i></a>
             </div>
             </div>
           </ul>

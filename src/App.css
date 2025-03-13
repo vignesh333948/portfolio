@@ -4,7 +4,11 @@
   background-color: blue;
   overflow: hidden;
 }
-
+.Main{
+  padding: 10%;
+  font-weight: 400;
+  font-size: larger;
+}
 .home-container {
   margin-left: 10%; 
 }
@@ -22,17 +26,16 @@ a{
   background-color: black;
   border-radius: 10px;
 }
-.ico:hover{
+.ico a:hover{
   background-color:transparent;
   color: red;
-  
 }
 @media screen and (max-width:768px) {
   .ico i{
     font-size: 16px;
   }
 }
-.btn {
+.b1 {
   font-size: 2rem !important;
   padding: 1rem 2.5rem;
   border: none;
@@ -71,10 +74,10 @@ a{
   
 }
 
-.btn:active {
+.b1:active {
   scale: 0.72;
 }
 
-.btn:hover {
+.b1:hover {
  transform: scale(1.1);
 }
