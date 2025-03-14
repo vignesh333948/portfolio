@@ -7,10 +7,12 @@ function Skills() {
     { name: "HTML", value: 85 },
     { name: "CSS", value: 80 },
     { name: "JavaScript", value: 60 },
-    { name: "React", value: 40 },
-    { name: "C Programming", value: 55 },
-    { name: "Python", value: 75 },
-    { name: "Django", value: 40 }
+    { name: "React", value: 60 },
+    { name: "Bootstrap", value: 70 },
+    { name: "C Programming", value: 60 },
+    { name: "Python", value: 70 },
+    { name: "Django", value: 40 },
+    { name: "Mysql", value: 60 }
   ];
 
   return (

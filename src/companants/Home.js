@@ -5,7 +5,6 @@ import { React } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./Home.css";
-
 export default function HomePage() {
   const [text] = useTypewriter({
     words: ["Junior Full Stack Developer.", "Python Developer.", "UI Designer."],
@@ -19,43 +18,33 @@ export default function HomePage() {
     <div className="Main">
       <section id="home">
         <Container>
-          <Row className="align-items-center text-center text-lg-start">
+          <Row className="align-items-center">
             {/* Text Section */}
-            <Col xs={12} md={6} className="mb-4">
-            <div id="Br">
-              <br className="br-home" /> <br className="br-home" /> <br className="br-home" />
-              <br className="br-home" />
-              <br  className="br-home"/>
+            <Col xs={12} md={6} className="d-flex flex-column justify-content-start">
+              <div className="hom text-white">
+                <h5>WELCOME TO MY WORLD</h5>
+                <h1>
+                  Hi, I&#39;m <span id="name" className="text-danger">VIGNESH C</span>
+                </h1>
+                <h2 className="t1 text-warning">
+                  a <span>{text}</span>
+                  <Cursor cursorStyle="|" cursorColor="#ff014f" />
+                </h2>
+                <p>
+                  As a motivated front-end developer, I am eager to build engaging and responsive websites.
+                  With a solid foundation in HTML, CSS, JavaScript, React, Python ,Mysql ,Django ,I focus on turning designs
+                  into smooth, interactive user experiences.
+                </p>
               </div>
-              <div>WELCOME TO MY WORLD</div>
-              <h1 className="text-decoration-none">
-                Hi, I&#39;m <span id="name">VIGNESH C</span>
-              </h1>
-              <h2 className="text-4xl font-bold text-white">
-                a <span>{text}</span>
-                <Cursor
-                  cursorBlinking="true"
-                  cursorStyle="|"
-                  cursorColor="#ff014f"
-                />
-              </h2>
-              <div>
-                An as a motivated front-end developer, I am eager to build
-                engaging and responsive websites. With a solid foundation in
-                HTML, CSS, JavaScript, and React, I focus on turning designs
-                into smooth, interactive user experiences.
-              </div>
-              <br />
             </Col>
-
+            
             {/* Image Section */}
-            <Col xs={12} md={6} className="text-center">
+            <Col xs={12} md={6} className="d-flex justify-content-center">
               <img
                 className="img-fluid"
                 src="vignesh.png" // Your image source
                 alt="Vignesh"
-                width="100%"
-                style={{ maxWidth: "400px" }}
+                style={{ maxWidth: "100%", height: "auto" }}
               />
             </Col>
           </Row>

@@ -9,6 +9,15 @@
         justify-content: center;
     }
 }
-.Main{
-    color: rgb(246, 122, 165);
+#name{
+    color:crimson;
+}
+.t1{
+    color: darkorange;
+}
+h5{
+    font-size: 1.5rem;
+}
+p{
+    font-style: italic;
 }
