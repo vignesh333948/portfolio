@@ -73,12 +73,8 @@ export default function Header() {
             
             </div>
             <div className='ico'>
-              <a href='https://github.com/vignesh333948'>
+              <a href='https://www.linkedin.com/in/vignesh-c-819b8332a/'>
             <i class="bi bi-linkedin"></i></a>
-            </div>
-            <div className='ico'>
-            <a href='https://github.com/vignesh333948'>
-            <i class="bi bi-instagram"></i></a>
             </div>
             </div>
           </ul>

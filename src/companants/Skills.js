@@ -17,7 +17,7 @@ function Skills() {
 
   return (
     <Container id='Skills' className='py-5 text-center'>
-      <h1 className='text-white'>SKILLS</h1>
+      <h1 className='text-white p-5'>SKILLS</h1>
       <Row className="g-4">
         {skills.map((skill, index) => (
           <Col key={index} xs={12} md={6}>

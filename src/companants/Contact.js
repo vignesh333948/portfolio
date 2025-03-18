@@ -31,7 +31,7 @@ function Contact() {
     emailjs
       .send(
         "service_zm7u617", // YOUR_SERVICE_ID
-        "template_pvqlsac", // template_id
+        "template_fek9tnb", // template_id
         userParams, // Pass the user details as parameters
         "G9wu8bNlNNKbT6N9v" // public key
       )
@@ -60,7 +60,7 @@ function Contact() {
     emailjs
       .send(
         "service_zm7u617", // YOUR_SERVICE_ID
-        "template_fek9tnb", // template_id
+        "template_pvqlsac", // template_id
         adminParams, // Pass the user details as parameters
         "G9wu8bNlNNKbT6N9v" // public key
       )
@@ -90,7 +90,7 @@ function Contact() {
           <div className='icon'>
            <div className='icon1'>
              <h1><i class="fa-solid fa-envelope"></i></h1>
-             <a href='www.linkedin.com/in/vignesh-c-819b8332a'>Linkedin</a>
+             <a href='https://www.linkedin.com/in/vignesh-c-819b8332a/'>Linkedin</a>
            </div>
            <div className='icon2'>
              <h1><i class="fa-brands fa-github"></i></h1>

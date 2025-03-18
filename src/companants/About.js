@@ -9,13 +9,13 @@ export default function About() {
           Passionate and detail-oriented BSc Computer Science graduate (2024) currently 
           pursuing a Full Stack Python Developer course. Equipped with strong skills in 
           <span className="font-semibold text-yellow-300"> HTML, CSS, JavaScript, React, Bootstrap, Python , Django, MySQL,</span> 
-          and C, I have hands-on experience in developing responsive and visually appealing websites. 
+          and C. I have hands-on experience in developing responsive and visually appealing websites. 
           I thrive on tackling complex challenges and am dedicated to creating seamless user experiences. 
           Eager to bring my innovative mindset and collaborative spirit to a dynamic team, I am committed 
           to contributing to transformative projects in the tech landscape.
         </p>
         <div className="flex justify-center mt-4">
-          <a href="VIGNESH C.pdf">
+          <a href="VIGNESH RESUME.pdf">
             <button className="b1 bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded-lg shadow-lg">
               RESUME
             </button>

@@ -7,7 +7,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./Home.css";
 export default function HomePage() {
   const [text] = useTypewriter({
-    words: ["Junior Full Stack Developer.", "Python Developer.", "UI Designer."],
+    words: ["Junior web Developer.", "Junior Python Developer.", "React Developer."],
     loop: true,
     typeSpeed: 40,
     deleteSpeed: 20,
