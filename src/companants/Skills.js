@@ -10,8 +10,8 @@ function Skills() {
     { name: "React", value: 60 },
     { name: "Bootstrap", value: 70 },
     { name: "C Programming", value: 60 },
-    { name: "Python", value: 70 },
-    { name: "Django", value: 40 },
+    { name: "Python", value: 60 },
+    { name: "Django", value: 30 },
     { name: "Mysql", value: 60 }
   ];
 

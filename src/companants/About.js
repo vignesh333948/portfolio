@@ -15,7 +15,7 @@ export default function About() {
           to contributing to transformative projects in the tech landscape.
         </p>
         <div className="flex justify-center mt-4">
-          <a href="VIGNESH RESUME.pdf">
+          <a href="VIGNESH-C.pdf">
             <button className="b1 bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded-lg shadow-lg">
               RESUME
             </button>

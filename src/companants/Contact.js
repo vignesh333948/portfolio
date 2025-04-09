@@ -76,14 +76,7 @@ function Contact() {
 
   return (
 
-  <div
-      id="contact"
-      // style={{
-      //   marginLeft: "20%", // Default margin for larger screens
-      //   padding: "20px",
-      //   transition: "margin-left 0.3s ease-in-out", // Smooth transition for responsive changes
-      // }}
-    >
+  <div id="contact">
       <section className='contact-container'>
       <h5 className='text-white'>CONTACT</h5>
       <div className='contact-icons'>
